@@ -1,0 +1,29 @@
+﻿<Window x:Class="GuerreroGendePabloTarea01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuerreroGendePabloTarea01"
+        mc:Ignorable="d"
+        Title="Ejercicio1" Height="300" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
+    <Grid>
+
+        <Canvas x:Name="canvasSave" Background="Aqua" >
+            <Label Content="Introduce here the text to be saved in the file." Canvas.Left="21" Canvas.Top="17"/>
+            <TextBox x:Name="txtContent" TextWrapping="Wrap" Text="" Background="Black" Foreground="White" Height="151" Width="345" Canvas.Left="21" Canvas.Top="48"/>
+            <Button x:Name="btnSave" Content="Save" VerticalContentAlignment="Center" Background="Blue" Foreground="GreenYellow" Click="btnSave_Click" Height="46" Canvas.Left="254" Canvas.Top="204" Width="112"/>
+        </Canvas>
+        <Canvas x:Name="canvasRead"  Background="Aqua" IsEnabled="False" Visibility="Collapsed" >
+            <Label Content="Here you can read the text saved in the file" Canvas.Left="21" Canvas.Top="17"/>
+            <Label x:Name="lblRead" Content="" Background="Black" Foreground="White" Height="150" Width="345" Canvas.Left="21" Canvas.Top="48" />
+            <Button x:Name="btnRead" Content="Read" VerticalContentAlignment="Center" Background="Blue" Foreground="GreenYellow" Click="btnRead_Click" Height="46" Canvas.Left="254" Canvas.Top="204" Width="112"/>
+        </Canvas>
+
+        <Canvas x:Name="canvasModify"  Background="Aqua" IsEnabled="true" Visibility="Collapsed">
+            <Label Content="Here you can modify the text saved in the file" Canvas.Left="21" Canvas.Top="17"/>
+            <TextBox x:Name="txtModify"  TextWrapping="Wrap" Text="" Background="Black" Foreground="White" Height="150" Width="345" Canvas.Left="21" Canvas.Top="48" />
+            <Button x:Name="btnModify" Content="Modify" VerticalContentAlignment="Center" Background="Blue" Foreground="GreenYellow" Click="btnModify_Click" Height="46" Canvas.Left="254" Canvas.Top="204" Width="112"/>
+        </Canvas>
+
+    </Grid>
+</Window>

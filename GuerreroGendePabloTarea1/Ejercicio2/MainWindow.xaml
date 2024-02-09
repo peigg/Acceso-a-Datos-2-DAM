@@ -1,0 +1,15 @@
+﻿<Window x:Class="Tarea02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea02"
+        mc:Ignorable="d"
+        Title="Ejercicio2" Height="300" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="Aqua">
+    <Grid>
+
+        <Button x:Name= "btnSeleccinar" Content="Seleccionar Archivo" Margin="34,127,234,99" Background="Blue" Foreground="White" Click="btnSeleccionar_Click"/>
+        <Button x:Name="btnCopiar"  Content="Copiar" Margin="235,127,33,99" Background="Blue" Foreground="White" Click="btnCopiar_Click"/>
+
+    </Grid>
+</Window>

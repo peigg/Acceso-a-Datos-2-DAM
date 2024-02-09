@@ -1,0 +1,14 @@
+C:\Users\Pablo\source\repos\DataAccess\bin\Debug\net8.0\DataAccess.exe
+C:\Users\Pablo\source\repos\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Pablo\source\repos\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Pablo\source\repos\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Pablo\source\repos\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Pablo\source\repos\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

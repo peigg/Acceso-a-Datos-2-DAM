@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ejercicio3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio3"
+        mc:Ignorable="d"
+        Title="Ejercicio3" Height="300" Width="400" Background="Aqua" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <Button x:Name="btnCargarArchivo" Content="Cargar Archivo de Estructura" Click="btnCargarArchivo_Click" Height="40" Margin="20" Background="Blue" Foreground="White"/>
+            <Button x:Name="btnCrearEstructura" Content="Crear Estructura" Click="btnCrearEstructura_Click" Height="40" Margin="20" Background="Blue" Foreground="White"/>
+            <TextBlock x:Name="txtMensaje" Margin="20"/>
+        </StackPanel>
+    </Grid>
+</Window>
